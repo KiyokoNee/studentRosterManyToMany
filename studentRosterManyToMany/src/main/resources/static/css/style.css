@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, form {
+	width: 80%;
+}
+
+h1, h2 {
+	margin: 20px auto;
+	color: cornflowerblue;
+	text-align: center;
+}
+
+.navlinks {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.formButton {
+  width: 50%;
+  margin: 20px auto;
+  cursor: pointer;
+  border: 2px solid black;
+  color: white;
+  background-color: dodgerblue;
+  box-shadow: 4px 4px 5px gray;
+  padding: 10px 15px;
+}
+
+#addStudents {
+	border: 2px solid black;
+	width: 50%;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: plum;
+}
+
+#dormDisplay, #studentDisplay {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#edit {
+	color: limegreen;
+}
+
+.flex {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex h1 {
+	margin: 0;
+}
+
+.entries {
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.error {
+	color: red;
+	margin: 5px 0;
+}
+
+.description {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+}
+
+.category {
+	width: 25%;
+}
+
+.actions {
+	display: flex;
+}
+
+.actions a {
+	margin: 20px auto;
+	line-height: 3em;
+}
+
+.buttonForm {
+	width: 10%;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttonForm button {
+	background-color: crimson;
+}
+
+input {
+	width: 70%;
+}
+
+tr {
+  height: 50px;
+}
+
+tr:nth-child(odd) {
+  background-color: aliceblue;
+}
+
+.link {
+    background:none!important;
+     border:none; 
+     padding:0!important;
+    
+    /*optional*/
+    font-family:arial,sans-serif; /*input has OS specific font-family*/
+     color:#069;
+     cursor:pointer;
+}
+.link:hover{
+         text-decoration:underline;
+}
